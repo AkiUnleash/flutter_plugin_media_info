@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 32
+    namespace 'asia.ivity.mediainfo'
 
     defaultConfig {
         minSdkVersion 16
@@ -37,8 +38,6 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-
-    namespace 'asia.ivity.mediainfo'
 }
 repositories {
     mavenCentral()
